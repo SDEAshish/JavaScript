@@ -1,11 +1,11 @@
----
+
 
 ### 1. **What is the difference between `var`, `let`, and `const`?**
 - **`var`**: Function-scoped. Can be redeclared and updated. Hoisted with *undefined*.
 - **`let`**: Block-scoped. Can be updated but not redeclared in the same scope.
 - **`const`**: Block-scoped. Cannot be updated or redeclared (must be initialized).
 
----
+
 
 ### 2. **Explain closures in JavaScript.**
 A **closure** is when a function "remembers" the environment in which it was created, even after the outer function has finished execution.
